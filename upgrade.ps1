@@ -10,6 +10,7 @@ choco upgrade -y firefox
 choco upgrade -y git
 choco upgrade -y llvm
 choco upgrade -y mingw
+choco upgrade -y ninja
 choco upgrade -y opencppcoverage
 choco upgrade -y visualstudio2019community
 choco upgrade -y visualstudio2019-workload-nativedesktop
