@@ -12,6 +12,7 @@ choco upgrade -y llvm
 choco upgrade -y mingw
 choco upgrade -y ninja
 choco upgrade -y opencppcoverage
+choco upgrade -y powershell-core
 choco upgrade -y visualstudio2019community
 choco upgrade -y visualstudio2019-workload-nativedesktop
 choco upgrade -y vscode
