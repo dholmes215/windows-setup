@@ -6,6 +6,7 @@ Stop-Process -processname explorer
 
 choco upgrade -y cmake
 choco upgrade -y conan
+choco upgrade -y cppcheck
 choco upgrade -y firefox
 choco upgrade -y git
 choco upgrade -y llvm
