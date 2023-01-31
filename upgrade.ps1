@@ -11,6 +11,7 @@ choco upgrade -y firefox
 choco upgrade -y git
 choco upgrade -y llvm
 choco upgrade -y mingw
+choco upgrade -y msys2
 choco upgrade -y ninja
 choco upgrade -y opencppcoverage
 choco upgrade -y powershell-core
