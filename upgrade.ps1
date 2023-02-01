@@ -32,7 +32,9 @@ choco upgrade -y mingw
 choco upgrade -y msys2
 choco upgrade -y ninja
 choco upgrade -y opencppcoverage
+choco upgrade -y pip
 choco upgrade -y powershell-core
+choco upgrade -y python
 choco upgrade -y visualstudio2019community
 choco upgrade -y visualstudio2019-workload-nativedesktop
 choco upgrade -y vscode
@@ -41,6 +43,10 @@ choco upgrade -y vscode-powershell
 
 # This is failing for reasons I haven't had time to investigate
 #choco upgrade -y wsl2
+
+python.exe -m pip install --upgrade pip
+
+pip install cmakelang
 
 git config --global user.email "dholmes@dholmes.us"
 git config --global user.name "David Holmes"
