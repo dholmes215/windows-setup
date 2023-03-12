@@ -22,6 +22,7 @@ if ($restart_explorer) {
 choco upgrade -y cmake
 choco upgrade -y conan
 choco upgrade -y cppcheck
+choco upgrade -y emscripten
 
 # choco installs a fresh Firefox in the current default C:/Program Files/Mozilla Firefox, but if you already have a Firefox in "Program Files (x86)", it will install the new one in parallel.  I'm leaving this commented out, absent a way to handle this annoying situation.
 #choco upgrade -y firefox
@@ -31,6 +32,7 @@ choco upgrade -y llvm
 choco upgrade -y mingw
 choco upgrade -y msys2
 choco upgrade -y ninja
+choco upgrade -y nvm
 choco upgrade -y opencppcoverage
 choco upgrade -y pip
 choco upgrade -y powershell-core
@@ -47,6 +49,10 @@ choco upgrade -y vscode-powershell
 python.exe -m pip install --upgrade pip
 
 pip install cmakelang
+
+nvm install latest
+nvm use latest
+npm install npm@latest -g
 
 git config --global user.email "dholmes@dholmes.us"
 git config --global user.name "David Holmes"
